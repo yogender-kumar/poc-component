@@ -27,7 +27,7 @@ module.exports = {
             path.resolve( rootPath, 'node_modules' )
         ],
         alias: {
-            'ajax': path.resolve( rootPath, '../core/src' ) + '/ajax.js'
+            'ajax': path.resolve( rootPath, './core/src' ) + '/ajax.js'
         }
     },
     externals: {
